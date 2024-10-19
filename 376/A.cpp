@@ -21,10 +21,19 @@ vector<ll>input(int n){
 int main(){
 ios::sync_with_stdio(0);
 cin.tie(NULL);
-int t;
-cin>>t;
-while(t){
+int n,c;
+cin>>n>>c;
+int ans=1;
 
- t--;}
+vector<ll> vec=input(n);
+int cr=vec[0];
+for(int i=1;i<n;i++){
+    if(vec[i]>=cr+c){
+        ans++;
+        cr=vec[i];
+    }
+
+}
+cout<<ans;
 
 }
