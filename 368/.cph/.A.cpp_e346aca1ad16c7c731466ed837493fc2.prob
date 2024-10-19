@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"c:\\Users\\ASUS\\Documents\\At_Coder\\368\\A.cpp","tests":[{"id":1724500963280,"input":"5 3\n1 2 3 4 5\n","output":"3 4 5 1 2\n"},{"id":1724500974246,"input":"","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\ASUS\\Documents\\At_Coder\\368\\A.cpp","group":"local","local":true}
